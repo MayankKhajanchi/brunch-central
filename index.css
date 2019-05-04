@@ -1,0 +1,117 @@
+body{
+	padding: none;
+	margin: none;
+}
+.Navbar {
+	margin-top:10px;
+	background-color: rgb(0,0,0,0);
+	display: flex;
+	padding: 8px;
+	font-size:18px;
+	word-spacing: 1px;
+	font-family: Arial;
+	color: black;
+	width:70%;
+	position: fixed;
+	z-index: 20;
+}
+
+.Navbar_Link {
+	padding-right: 8px;
+}
+
+.Navbar_Link-brand{
+	font-size: 20px;
+}
+
+.Navbar_Items {
+	display: flex;
+}
+
+.Navbar_Items--right {
+	margin-left:auto;
+}
+
+.Navbar_Link-toggle {
+	display: none;
+}
+.signup{
+	border: 2px solid black;
+	padding: 5px;
+	border-radius: 5px;
+	background: white;
+}
+.signup:hover{
+border: 2px solid white;
+color: white;
+	padding: 5px;
+	border-radius: 5px;
+	background: black;	
+}
+
+@media only screen and (max-width: 768px) {
+	.Navbar_Items,
+	.Navbar {
+		flex-direction: column;
+	}
+	.Navbar_Items {
+		display:none;
+	}
+	.Navbar_Items--right {
+		margin-left:0;
+	}
+	.Navbar_ToggleShow {
+		display: flex;
+	}
+	.Navbar_Link-toggle {
+		align-self: flex-end;
+		display: initial;
+		position: absolute;
+		cursor: pointer;
+	} 
+}
+.p-0{
+	padding: none;
+}
+.m-0{
+	padding: none;
+	margin: none;
+}
+.maps{
+	height: 70vh;
+	width: 100vw;
+}
+.restaurants{
+	height: 30vh;
+	background-color: rgb(251,251,250)
+}
+.near-me-head{
+	font-size: 22px;
+	font-weight: 700;
+}
+#map{
+	height: 100%;
+}
+.wrapper{
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+}
+.rest{
+	display: inline-block;
+	width: 300px;
+}
+.button{
+	width: 110px;
+	height: 50px;
+	color: rgb(74,132,244);
+	font-size: 14px;
+	background: rgb(235,235,240);
+	padding: 5px;
+	border-radius: 5px;
+}
+.button:hover{
+	cursor: pointer;
+}
+
+/*rgb(74,132,244)*/
