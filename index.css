@@ -124,7 +124,7 @@ body{
 	} 
 }
 .map{
-  height: 70vh;
+  height: 60vh;
   background: white;
   position: fixed;
   width: 100vw;
@@ -137,11 +137,22 @@ body{
 .restaurants{
   background: white;
   position: relative;
-  top: 70vh;
+  top: 60vh;
   z-index: 21;
 }
 #map{
 	position: static !important;
+}
+
+.near-me{
+
+}
+
+.button{
+	color: rgb(74,132,244);
+	background: rgb(228,229,255);
+	border-radius: 5px;
+	width: 120px;
 }
 
 .view-card{
