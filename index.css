@@ -125,7 +125,7 @@ body{
 }
 .map{
   height: 70vh;
-  background: red;
+  background: white;
   position: fixed;
   width: 100vw;
   color: white;
@@ -135,7 +135,6 @@ body{
 	background-image: linear-gradient(rgb(224,224,224), rgb(190,190,190));
 }
 .restaurants{
-  height: 100vh;
   background: white;
   position: relative;
   top: 70vh;
@@ -143,4 +142,14 @@ body{
 }
 #map{
 	position: static !important;
+}
+
+.view-card{
+	height: 150px;
+	border: 1px solid rgb(190,190,190);
+	border-radius: 4px;
+}
+.view-card-img{
+	background-image: url('3.jpg');
+	background-size: cover;
 }
