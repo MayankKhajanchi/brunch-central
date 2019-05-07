@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 .Navbar {
 	margin-top:10px;
-	background-color: rgb(0,0,0,0);
+	background-color: rgb(255,255,255,.6);
 	font-family: 'Open Sans', sans-serif;
 	display: flex;
 	padding: 8px;
@@ -77,6 +77,9 @@ a:hover{
 		position: absolute;
 		cursor: pointer;
 	} 
+	.login{
+		margin-bottom: 15px;
+	}
 }
 .map{
   height: 60vh;
@@ -123,4 +126,5 @@ a:hover{
 .view-card-img{
 	background-image: url('3.jpg');
 	background-size: cover;
+	background-position: center; 
 }

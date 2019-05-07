@@ -1,0 +1,6 @@
+.cover-img{
+	background-image: url('cafe2.jpg');
+	background-size: cover;
+	background-position: center; 
+	/*background-repeat: no-repeat; */
+}
