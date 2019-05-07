@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Alex+Brush');
 
+.p-0{
+	padding: none;
+}
+.m-0{
+	margin: none;
+}
+
 .Navbar {
 	transition: .5s;
 	margin-top:10px;
@@ -86,6 +93,12 @@ a:hover{
 	} 
 	.login{
 		margin-bottom: 15px;
+	}
+	
+}
+@media only screen and (max-width: 568px) {
+	.photos{
+		right: 5vw !important;
 	}
 }
 .map{
