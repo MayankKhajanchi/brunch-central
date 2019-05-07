@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush');
+
 .Navbar {
+	transition: .5s;
 	margin-top:10px;
 	background-color: rgb(255,255,255,.6);
 	font-family: 'Open Sans', sans-serif;
@@ -11,6 +14,10 @@
 	width:70%;
 	position: fixed;
 	z-index: 20;
+}
+.Navbar:hover{
+	transition: .5s;
+	background-color: rgb(255,255,255,1);
 }
 a{
 	color: rgb(74,132,244);
@@ -127,4 +134,29 @@ a:hover{
 	background-image: url('3.jpg');
 	background-size: cover;
 	background-position: center; 
+}
+.typo{
+	font-family: 'Alex Brush', cursive;
+	font-weight: 200;
+	color:white;
+	font-size:80px;
+	height: 100%
+}
+.photos{
+	color: black;
+	z-index: 20;
+	position: fixed;
+	top: 53vh;
+	right: 1vw;
+	padding: 10px;
+	background: rgba(224,224,224,.9);
+	border-radius: 30px;
+	transition: .5s;
+}
+
+.photos:hover{
+	transition: .5s;
+	background: rgb(44,31,0);
+	color: white;
+	cursor: pointer;
 }
