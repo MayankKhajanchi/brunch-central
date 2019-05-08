@@ -14,7 +14,8 @@
 	color: green;
 }
 .see-more{
-	color: rgb(74,132,244);;
+	color: rgb(74,132,244);
+	cursor: pointer;
 }
 .restaurant-content{
 	height: 30vh;

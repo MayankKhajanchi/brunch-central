@@ -135,6 +135,7 @@ a:hover{
 }
 .button:hover{
 	transition: .5s;
+	cursor: pointer;
 	background: rgb(208,209,255);
 }
 
