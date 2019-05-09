@@ -8,6 +8,10 @@
 	margin: none;
 }
 
+.blue-text{
+	color: rgb(74,132,244);
+}
+
 .Navbar {
 	transition: .5s;
 	margin-top:10px;
@@ -27,7 +31,7 @@
 	background-color: rgb(255,255,255,1);
 }
 a{
-	color: rgb(74,132,244);
+	color: rgb(74,132,244 );
 }
 a:hover{
 	color: rgb(0,0,209);
@@ -35,6 +39,7 @@ a:hover{
 }
 
 .Navbar__Link {
+	transition: 1s;
 	padding-right: 8px;
 	margin-left: 5px;
 	cursor: pointer;
@@ -53,6 +58,7 @@ a:hover{
 }
 
 .Navbar__Link-toggle {
+	transition: 1s fade-in;
 	display: none;
 }
 .signup{
@@ -69,6 +75,9 @@ a:hover{
 	padding: 5px;
 	border-radius: 5px;
 	background: black;	
+}
+.card-ratings{
+	color: rgb(153,153,153);
 }
 
 @media only screen and (max-width: 768px) {
@@ -100,7 +109,11 @@ a:hover{
 	.photos{
 		right: 5vw !important;
 	}
+	.typo{
+		font-size: 60px !important;
+	}
 }
+
 .map{
   height: 60vh;
   background: white;
@@ -112,18 +125,16 @@ a:hover{
 .slider{
 	background-image: linear-gradient(rgb(224,224,224), rgb(190,190,190));
 }
+
 .restaurants{
-  background: white;
+  background: rgb(239,239,239);
   position: relative;
   top: 60vh;
   z-index: 21;
 }
+
 #map{
 	position: static !important;
-}
-
-.near-me{
-
 }
 
 .button{
@@ -133,6 +144,7 @@ a:hover{
 	border-radius: 5px;
 	width: 120px;
 }
+
 .button:hover{
 	transition: .5s;
 	cursor: pointer;
@@ -143,12 +155,16 @@ a:hover{
 	height: 150px;
 	border: 1px solid rgb(190,190,190);
 	border-radius: 4px;
+	background: rgb(255,255,255); 
 }
 .view-card-img{
 	background-image: url('3.jpg');
 	background-size: cover;
-	background-position: center; 
+	background-position: center;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
 }
+
 .typo{
 	font-family: 'Alex Brush', cursive;
 	font-weight: 200;

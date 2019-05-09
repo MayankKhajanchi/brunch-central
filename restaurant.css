@@ -4,19 +4,19 @@
 	background-position: center; 
 	/*background-repeat: no-repeat; */
 }
-.fa-star{
-	color: rgb(74,132,244);
-}
+
 .fa-star:nth-child(5){
 	color: grey;
 }
+
 .status{
 	color: green;
 }
+
 .see-more{
-	color: rgb(74,132,244);
 	cursor: pointer;
 }
+
 .restaurant-content{
 	height: 30vh;
 }
