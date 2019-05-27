@@ -234,9 +234,7 @@ a:hover{
 	top: 1vh;
 	left: 1vw;
 	padding: 10px;
-	/*background: rgba(224,224,224,.9);*/
 	border-radius: 30px;
-	transition: .5s;
 }
 
 .back a{
