@@ -7,11 +7,11 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	<meta name="viewport" content= "width=device-width, initial-scale=1.0">
 	<script async defer
-	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCVPr02Mp6OtEUNEilXUs_SQslYozWohc&callback=initMap">
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPb_GRNE53rjkCXefx9grG0nP07D9KZo0&callback=initMap">
 </script>
 </head>
 <body>
-	<div class="navbar-container d-flex justify-content-center">
+	<!-- <div class="navbar-container d-flex justify-content-center">
 		<div class="Navbar">
 			<div class="Navbar__Link Navbar__Link-brand">
 				Brunch Central
@@ -36,7 +36,7 @@
 				</div>
 			</nav>
 		</div>	
-	</div>
+	</div> -->
 
 
 
@@ -48,84 +48,86 @@
 			<div class="col-lg-12 d-flex justify-content-center w-100 slider">
 				<i class="fas fa-minus"></i>
 			</div>
-			<div class="col-lg-12 near-me text-center">
-				<h4>Near Me Now</h4>
+			<div class="col-lg-12 brand text-center">
+				<h4>Brunch Finder</h4>
 			</div>
 			<div class="col-lg-12 row d-flex justify-content-center align-items-center m-0">
 				<div class="button row d-flex justify-content-center align-items-center mr-4">
 					<div class="col-lg-12 text-center">
-						<i class="fas fa-sliders-h"></i>
+						<i class="fas fa-utensils"></i>
 					</div>
-					<div class="col-lg-12 text-center">
-						Filter
+					<div class="col-lg-12 text-center text_medium">
+						Restaurants
 					</div>
 				</div>
 				<div class="button row d-flex justify-content-center align-items-center">
 					<div class="col-lg-12 text-center">
-						<i class="fas fa-clock"></i>
+						<i class="fas fa-keyboard"></i>
 					</div>
-					<div class="col-lg-12 text-center">
-						Opened
+					<div class="col-lg-12 text-center text_medium">
+						Blogs
 					</div>
 				</div>
 			</div>
 			<div class="col-lg-12 row d-flex justify-content-around p-0 m-0 mt-3">
 				<div class="col-xl-5 col-lg-5 col-md-6 col-sm-11 col-11 m-2 view-card row p-0">
-					<div class="col-lg-7 col-md-8 col-sm-8 col-8 view-card-img" style=""></div>
-					<div class="col-lg-5 col-md-4 col-sm-4 col-4 d-flex align-items-center row p-0 pl-1">
-						<div class="col-lg-12">
-							<a href="restaurant.html" class="blue-text">Green Caffeine</a>
-						</div>
-						<div class="col-lg-12">Meals</div>
-						<div class="col-lg-12 card-ratings">Rating(Reviews)</div>
-						<div class="col-lg-12">$$$</div>
+					<div class="col-lg-3 col-md-3 col-sm-3 col-3 view-card-img d-flex justify-content-center align-items-center" style="">
+						<a href="restaurant.html"><img src="restaurant_img.png" height="60" style="border-radius: 10px"></a>
+					</div>
+					<div class="col-lg-9 col-md-9 col-sm-9 col-9 d-flex align-items-center row p-0 pl-1">
+						<div class="col-lg-12 rest_name text_large"><a href="restaurant.html">Green Caffeine</a></div>
+						<div class="col-lg-12 rest_type text_medium">Meals</div>
+						<div class="col-lg-12 rest_reviews text_small">8.6 (157)<i class="fas fa-circle"></i>$$</div>
 					</div>
 				</div>
 				<div class="col-xl-5 col-lg-5 col-md-6 col-sm-11 col-11 m-2 view-card row p-0">
-					<div class="col-lg-7 col-md-8 col-sm-8 col-8 view-card-img" style=""></div>
-					<div class="col-lg-5 col-md-4 col-sm-4 col-4 d-flex align-items-center row p-0 pl-1">
-						<div class="col-lg-12">
-							<a href="#.html" class="blue-text">Blue Bean</a>
-						</div>
-						<div class="col-lg-12">Meals</div>
-						<div class="col-lg-12 card-ratings">Rating(Reviews)</div>
-						<div class="col-lg-12">$$$</div>
+					<div class="col-lg-3 col-md-3 col-sm-3 col-3 view-card-img d-flex justify-content-center align-items-center" style="">
+						<a href="restaurant.html"><img src="restaurant_img.png" height="60" style="border-radius: 10px"></a>
+					</div>
+					<div class="col-lg-9 col-md-9 col-sm-9 col-9 d-flex align-items-center row p-0 pl-1">
+						<div class="col-lg-12 rest_name text_large"><a href="restaurant.html">Green Caffeine</a></div>
+						<div class="col-lg-12 rest_type text_medium">Meals</div>
+						<div class="col-lg-12 rest_reviews text_small">8.6 (157)<i class="fas fa-circle"></i>$$</div>
 					</div>
 				</div>
 				<div class="col-xl-5 col-lg-5 col-md-6 col-sm-11 col-11 m-2 view-card row p-0">
-					<div class="col-lg-7 col-md-8 col-sm-8 col-8 view-card-img" style=""></div>
-					<div class="col-lg-5 col-md-4 col-sm-4 col-4 d-flex align-items-center row p-0 pl-1">
-						<div class="col-lg-12">Black Sugar</div>
-						<div class="col-lg-12">Meals</div>
-						<div class="col-lg-12 card-ratings">Rating(Reviews)</div>
-						<div class="col-lg-12">$$$</div>
+					<div class="col-lg-3 col-md-3 col-sm-3 col-3 view-card-img d-flex justify-content-center align-items-center" style="">
+						<a href="restaurant.html"><img src="restaurant_img.png" height="60" style="border-radius: 10px"></a>
+					</div>
+					<div class="col-lg-9 col-md-9 col-sm-9 col-9 d-flex align-items-center row p-0 pl-1">
+						<div class="col-lg-12 rest_name text_large"><a href="restaurant.html">Green Caffeine</a></div>
+						<div class="col-lg-12 rest_type text_medium">Meals</div>
+						<div class="col-lg-12 rest_reviews text_small">8.6 (157)<i class="fas fa-circle"></i>$$</div>
 					</div>
 				</div>
 				<div class="col-xl-5 col-lg-5 col-md-6 col-sm-11 col-11 m-2 view-card row p-0">
-					<div class="col-lg-7 col-md-8 col-sm-8 col-8 view-card-img" style=""></div>
-					<div class="col-lg-5 col-md-4 col-sm-4 col-4 d-flex align-items-center row p-0 pl-1">
-						<div class="col-lg-12">Name</div>
-						<div class="col-lg-12">Meals</div>
-						<div class="col-lg-12 card-ratings">Rating(Reviews)</div>
-						<div class="col-lg-12">$$$</div>
+					<div class="col-lg-3 col-md-3 col-sm-3 col-3 view-card-img d-flex justify-content-center align-items-center" style="">
+						<a href="restaurant.html"><img src="restaurant_img.png" height="60" style="border-radius: 10px"></a>
+					</div>
+					<div class="col-lg-9 col-md-9 col-sm-9 col-9 d-flex align-items-center row p-0 pl-1">
+						<div class="col-lg-12 rest_name text_large"><a href="restaurant.html">Green Caffeine</a></div>
+						<div class="col-lg-12 rest_type text_medium">Meals</div>
+						<div class="col-lg-12 rest_reviews text_small">8.6 (157)<i class="fas fa-circle"></i>$$</div>
 					</div>
 				</div>
 				<div class="col-xl-5 col-lg-5 col-md-6 col-sm-11 col-11 m-2 view-card row p-0">
-					<div class="col-lg-7 col-md-8 col-sm-8 col-8 view-card-img" style=""></div>
-					<div class="col-lg-5 col-md-4 col-sm-4 col-4 d-flex align-items-center row p-0 pl-1">
-						<div class="col-lg-12">Name</div>
-						<div class="col-lg-12">Meals</div>
-						<div class="col-lg-12 card-ratings">Rating(Reviews)</div>
-						<div class="col-lg-12">$$$</div>
+					<div class="col-lg-3 col-md-3 col-sm-3 col-3 view-card-img d-flex justify-content-center align-items-center" style="">
+						<a href="restaurant.html"><img src="restaurant_img.png" height="60" style="border-radius: 10px"></a>
+					</div>
+					<div class="col-lg-9 col-md-9 col-sm-9 col-9 d-flex align-items-center row p-0 pl-1">
+						<div class="col-lg-12 rest_name text_large"><a href="restaurant.html">Green Caffeine</a></div>
+						<div class="col-lg-12 rest_type text_medium">Meals</div>
+						<div class="col-lg-12 rest_reviews text_small">8.6 (157)<i class="fas fa-circle"></i>$$</div>
 					</div>
 				</div>
 				<div class="col-xl-5 col-lg-5 col-md-6 col-sm-11 col-11 m-2 view-card row p-0">
-					<div class="col-lg-7 col-md-8 col-sm-8 col-8 view-card-img" style=""></div>
-					<div class="col-lg-5 col-md-4 col-sm-4 col-4 d-flex align-items-center row p-0 pl-1">
-						<div class="col-lg-12">Name</div>
-						<div class="col-lg-12">Meals</div>
-						<div class="col-lg-12 card-ratings">Rating(Reviews)</div>
-						<div class="col-lg-12">$$$</div>
+					<div class="col-lg-3 col-md-3 col-sm-3 col-3 view-card-img d-flex justify-content-center align-items-center" style="">
+						<a href="restaurant.html"><img src="restaurant_img.png" height="60" style="border-radius: 10px"></a>
+					</div>
+					<div class="col-lg-9 col-md-9 col-sm-9 col-9 d-flex align-items-center row p-0 pl-1">
+						<div class="col-lg-12 rest_name text_large"><a href="restaurant.html">Green Caffeine</a></div>
+						<div class="col-lg-12 rest_type text_medium">Meals</div>
+						<div class="col-lg-12 rest_reviews text_small">8.6 (157)<i class="fas fa-circle"></i>$$</div>
 					</div>
 				</div>
 			</div>

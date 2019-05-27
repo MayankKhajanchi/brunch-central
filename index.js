@@ -1,5 +1,5 @@
 function initMap() {
-	var home = {lat: 26.174, lng: 91.734};
+	// var home = {lat: 26.174, lng: 91.734};
 	var map = new google.maps.Map(
 		document.getElementById('map'), 
 		{	
