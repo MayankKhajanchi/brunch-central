@@ -220,12 +220,27 @@ a:hover{
 	color: black;
 	z-index: 20;
 	position: fixed;
-	top: 53vh;
+	top: 50vh;
 	right: 1vw;
 	padding: 10px;
 	background: rgba(224,224,224,.9);
 	border-radius: 30px;
 	transition: .5s;
+}
+
+.back{
+	z-index: 20;
+	position: fixed;
+	top: 1vh;
+	left: 1vw;
+	padding: 10px;
+	/*background: rgba(224,224,224,.9);*/
+	border-radius: 30px;
+	transition: .5s;
+}
+
+.back a{
+	color: white;
 }
 
 .photos:hover{
